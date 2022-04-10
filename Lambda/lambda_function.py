@@ -109,7 +109,7 @@ def validate_data(age, amount, intent_request):
             return build_validation_result(
                 False,
                 "age",
-                "You must provide an age that is older than 0 and yanger 65 ",
+                "You must provide an age that is older than 0 and younger 65 ",
                 
             )
         
